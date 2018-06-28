@@ -23,8 +23,6 @@ header{
     background-size: cover;
     background-position: center;
     height: 100vh;
-
-=======
 }
 
 .home {
@@ -49,7 +47,6 @@ header{
     transform: translate(-25%, -25%);
 }
 
-<<<<<<< HEAD
 /* Setting the Logo's size */
 #OPSLogo {
     width: 50%;
