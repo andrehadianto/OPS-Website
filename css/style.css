@@ -23,6 +23,8 @@ header{
     background-size: cover;
     background-position: center;
     height: 100vh;
+
+=======
 }
 
 .home {
@@ -36,6 +38,21 @@ header{
 /* Setting the Logo's size */
 #OPSLogo {
     width: 50%;
+
+}
+
+.home {
+    position: absolute;
+    width: 1140px;
+    top: 34%;
+    left: 50%;
+    transform: translate(-25%, -25%);
+}
+
+<<<<<<< HEAD
+/* Setting the Logo's size */
+#OPSLogo {
+    width: 50%;
 }
 
 /* Get in touch button */
@@ -45,6 +62,9 @@ header{
 
     font-weight: 300;
     color: RGB(94,199,147);
+}
+
+#getInTouch {
     text-align: center;
     text-decoration: none;
 
