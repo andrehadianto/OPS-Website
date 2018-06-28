@@ -38,23 +38,36 @@ header{
     width: 50%;
 }
 
+/* Get in touch button */
+.btn {
+    display: inline-block;
+    padding: 15px 45px;
+
+    font-weight: 300;
+    color: RGB(94,199,147);
+    text-align: center;
+    text-decoration: none;
+
+    border: solid rgb(94,199,147);
+    border-radius: 6px;
+
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+#getInTouch {
+    font-size: 110%;
+    margin-left: 15%;
+}
+
+#getInTouch:hover {
+    background-color: RGB(94,199,147);
+    color: #fff;
+}
+
 .navigation li{
     display: inline;
     margin-left: auto;
     margin-right: auto;
     width: 1120px;
 
-}
-
-#getInTouch {
-    text-align: center;
-
-    width: 900px;
-    height: 25%;
-
-    background-image: url("../img/1.Home/get-in-touch_normal.png");
-}
-
-#getInTouch:hover {
-    background-image: url("../img/1.Home/get-in-touch_hover.png")
 }
