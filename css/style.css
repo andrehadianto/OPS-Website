@@ -118,7 +118,7 @@ nav {
 
 .main-nav li a:hover{
     color: rgb(94,199,147);
-    font-weight: bold;
+    font-weight: 600;
 
     background-color: rgba(0,0,0,0.5);
     border-bottom: 3px solid rgb(94,199,147);
