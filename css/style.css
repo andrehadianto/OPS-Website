@@ -1,7 +1,11 @@
+/* ------------------------------------------------- */
+/* BASIC SETUP */
+/* ------------------------------------------------- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 html {
@@ -13,10 +17,43 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/* ------------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ------------------------------------------------- */
 .row {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+/* BUTTONS */
+.btn {
+    display: inline-block;
+    padding: 15px 45px;
+
+    font-weight: 300;
+    color: RGB(94,199,147);
+}
+
+#getInTouch {
+    text-align: center;
+    text-decoration: none;
+
+    border: solid rgb(94,199,147);
+    border-radius: 6px;
+
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    font-size: 110%;
+    margin-left: 15%;
+}
+
+#getInTouch:hover {
+    background-color: RGB(94,199,147);
+    color: #fff;
+}
+
+/* ------------------------------------------------- */
+/* HEADER */
+/* ------------------------------------------------- */
 
 header{
     background-image: url("../img/1.Home/hOME_bg.png");
@@ -52,39 +89,36 @@ header{
     width: 50%;
 }
 
-/* Get in touch button */
-.btn {
+/* ------------------------------------------------- */
+/* NAVIGATION BAR */
+/* ------------------------------------------------- */
+nav {
+    background-color: rgba(0,0,0,0.4);
+    box-shadow: 0px 10px 20px RGBa(0,0,0,0.5);
+}
+
+.main-nav {
+    float: left;
+    list-style: none;
+}
+
+.main-nav li {
     display: inline-block;
-    padding: 15px 45px;
-
-    font-weight: 300;
-    color: RGB(94,199,147);
+    padding: 30px;
 }
 
-#getInTouch {
-    text-align: center;
+.main-nav li a {
+    color: rgb(210,211,212);
     text-decoration: none;
-
-    border: solid rgb(94,199,147);
-    border-radius: 6px;
-
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    font-weight: 100;
 }
 
-#getInTouch {
-    font-size: 110%;
-    margin-left: 15%;
-}
+/* need fixing */
+.main-nav li:hover,
+.main-nav li a:hover {
+    background-color: rgba(0,0,0,0.5);
+    border-bottom: 3px solid rgb(94,199,147);
 
-#getInTouch:hover {
-    background-color: RGB(94,199,147);
-    color: #fff;
-}
-
-.navigation li{
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1120px;
-
+    color: rgb(94,199,147);
+    font-weight: bold;
 }
