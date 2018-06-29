@@ -101,6 +101,7 @@ nav {
     float: left;
     list-style: none;
     text-align: center;
+    margin-left: 10%;
 }
 
 .main-nav li {
@@ -109,11 +110,10 @@ nav {
 
 .main-nav li a {
     display: inline-block;
-    padding: 30px;
+    padding: 30px 60px;
 
     color: rgb(210,211,212);
     text-decoration: none;
-    font-weight: 100;
 }
 
 .main-nav li a:hover{
@@ -122,4 +122,28 @@ nav {
 
     background-color: rgba(0,0,0,0.5);
     border-bottom: 3px solid rgb(94,199,147);
+}
+
+/* ------------------------------------------------- */
+/* RESPONSIVE STYLES */
+/* ------------------------------------------------- */
+/* https://medialoot.com/blog/how-to-create-a-responsive-navigation-menu-using-only-css/ */
+@media screen and (max-width : 760px) {
+    /*Make dropdown links appear inline*/
+    ul {
+        position: static;
+        display: show;
+    }
+    /*Create vertical spacing*/
+    li {
+        margin-bottom: 1px;
+    }
+    /*Make all menu links full width*/
+    ul li, li a {
+        width: 100%;
+    }
+
+    .main-nav {
+        margin: auto;
+    }
 }
