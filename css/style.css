@@ -9,7 +9,7 @@
 }
 
 html {
-    background-color: #fff;
+    background-color: #f6f6f6;
     color: #555;
     font-family: 'HelveticaNeue', sans-serif;
     font-weight: 300;
@@ -36,6 +36,12 @@ h2 {
     text-align: center;
     color: RGB(28,69,102);
     margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 150%;
+    font-weight: 520;
+    letter-spacing: 20%;
 }
 
 /* BUTTONS */
@@ -146,23 +152,35 @@ nav {
 
 .section-about #about {
     font-size: 115%;
-    margin-left: 14%;
-    margin-right: 14%;
     margin-bottom: 80px;
 }
 
-.section-about .long-copy {
+/* Paragraph */
+
+.long-copy {
     line-height: 1.75rem;
+    width: 95%;
+    margin-left: 2.5%;
 }
+
+.box p {
+    margin: 15% 10%;
+    line-height: 150%;
+    font-weight: 100;
+}
+
 /* Grid About */
 .section-about #grid {
     max-width: none;
     margin-right: 0;
     margin-left: 0;
+    color: #f6f6f6;
 }
 
 .section-about .row #Branding {
     background-image: url("../img/2.Our Services/Branding BG.png");
+    background-size: 60vh;
+    background-repeat: no-repeat;
     width: 33.26%;
     margin: 0;
 }
@@ -179,6 +197,23 @@ nav {
     margin: 0;
 }
 
+.section-about .row #ProjectMngmnt {
+    background-image: url("../img/2.Our Services/projMgmnt BG.png");
+    width: 33.26%;
+    margin: 0;
+}
+
+.section-about .row #infrastructure {
+    background-image: url("../img/2.Our Services/infrastructure BG.png");
+    width: 33.26%;
+    margin: 0;
+}
+
+.section-about .row #appDev {
+    background-image: url("../img/2.Our Services/appdevt BG.png");
+    width: 33.26%;
+    margin: 0;
+}
 
 /* ------------------------------------------------- */
 /* RESPONSIVE STYLES */
