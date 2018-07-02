@@ -25,6 +25,19 @@ html {
     margin: 0 auto;
 }
 
+section {
+    padding: 80px 0;
+}
+
+/* HEADINGS */
+h2 {
+    font-size: 260%;
+    font-weight: 300;
+    text-align: center;
+    color: RGB(28,69,102);
+    margin-bottom: 40px;
+}
+
 /* BUTTONS */
 .btn {
     display: inline-block;
@@ -123,6 +136,49 @@ nav {
     background-color: rgba(0,0,0,0.5);
     border-bottom: 3px solid rgb(94,199,147);
 }
+
+/* ------------------------------------------------- */
+/* About Section */
+/* ------------------------------------------------- */
+.section-about .row {
+    text-align: center;
+}
+
+.section-about #about {
+    font-size: 115%;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: 80px;
+}
+
+.section-about .long-copy {
+    line-height: 1.75rem;
+}
+/* Grid About */
+.section-about #grid {
+    max-width: none;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.section-about .row #Branding {
+    background-image: url("../img/2.Our Services/Branding BG.png");
+    width: 33.26%;
+    margin: 0;
+}
+
+.section-about .row #OurServices {
+    background-image: url("../img/2.Our Services/OurService BG.png");
+    width: 33.26%;
+    margin: 0;
+}
+
+.section-about .row #itServices {
+    background-image: url("../img/2.Our Services/itServices BG.png");
+    width: 33.26%;
+    margin: 0;
+}
+
 
 /* ------------------------------------------------- */
 /* RESPONSIVE STYLES */
