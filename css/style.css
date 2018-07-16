@@ -164,14 +164,14 @@ nav {
 }
 
 .box p {
-    margin: 15% 10%;
+    margin: 7% 10%;
     line-height: 150%;
     font-weight: 100;
 }
 
 /* icons */
 .section-about .row img {
-    width: 15%;
+    width: 20%;
     margin-top: 15%;
     margin-bottom: 5%;
 }
@@ -188,36 +188,46 @@ nav {
     background-size: 60vh;
     background-repeat: no-repeat;
     width: 33.26%;
+    height: 58vh;
     margin: 0;
 }
 
 .section-about .row #OurServices {
     background-image: url("../img/2.Our Services/OurService BG.png");
     width: 33.26%;
+    height: 58vh;
     margin: 0;
 }
 
 .section-about .row #itServices {
     background-image: url("../img/2.Our Services/itServices BG.png");
+    background-size: 60vh;
     width: 33.26%;
+    height: 58vh;
     margin: 0;
 }
 
 .section-about .row #ProjectMngmnt {
     background-image: url("../img/2.Our Services/projMgmnt BG.png");
+    background-size: 60vh;
     width: 33.26%;
+    height: 58vh;
     margin: 0;
 }
 
 .section-about .row #infrastructure {
     background-image: url("../img/2.Our Services/infrastructure BG.png");
+    background-size: 60vh;
     width: 33.26%;
+    height: 58vh;
     margin: 0;
 }
 
 .section-about .row #appDev {
     background-image: url("../img/2.Our Services/appdevt BG.png");
+    background-size: 60vh;
     width: 33.26%;
+    height: 58vh;
     margin: 0;
 }
 
