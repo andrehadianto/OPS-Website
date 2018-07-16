@@ -198,6 +198,19 @@ nav {
     height: 58vh;
     margin: 0;
 }
+/* Our Services SPECIAL TEXT */
+.section-about .row #OurServices h3 {
+    margin-top: 20%;
+}
+
+.section-about .row #OurServices h3:after {
+    display: block;
+    height: 4px;
+    background-color: rgb(94,199,147);
+    content: " ";
+    width: 60px;
+    margin: 5% auto 0;
+}
 
 .section-about .row #itServices {
     background-image: url("../img/2.Our Services/itServices BG.png");
