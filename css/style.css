@@ -283,7 +283,7 @@ nav {
 /* ------------------------------------------------- */
 .section-quotes {
     background-image: url("../img/4.Quote 1/Quote1 BG.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 3.75%;
 }
@@ -296,7 +296,8 @@ nav {
 .section-quotes .row blockquote {
     color: rgb(202,202,202);
     text-align: center;
-    margin: 5% 5% 2%;
+    line-height: 150%;
+    margin: 2% 5%;
 }
 
 .section-quotes .row p {
@@ -308,8 +309,47 @@ nav {
 /* ------------------------------------------------- */
 /* PROJECTS */
 /* ------------------------------------------------- */
+.row-projects {
+    max-width: 1280px;
+    margin: 0 auto;
+}
 
+/* Headings */
+.section-projects .row-projects h2 {
+    font-size: 300%;
+    color: #555;
+    text-align: center;
+}
 
+.section-projects .row-projects p {
+    font-size: 115%;
+    margin: 0 0 5%;
+    line-height: 1.75rem;
+    text-align: center;
+}
+
+/* nav */
+.section-projects .row-projects .nav {
+    text-align: center;
+}
+
+.section-projects .row-projects .nav li {
+    display: inline;
+}
+
+.section-projects .row-projects .nav li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+    padding: 0.8% 1.5%;
+    background-color: rgb(222,222,222);
+    border-radius: 4px;
+}
+
+.section-projects .row-projects .nav li a:active {
+    background-color: rgb(94,199,147);
+    color: #fff
+}
 
 /* ------------------------------------------------- */
 /* RESPONSIVE STYLES */
