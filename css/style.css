@@ -288,6 +288,14 @@ nav {
     padding-top: 3.75%;
 }
 
+#quote1 {
+    background-image: url("../img/4.Quote 1/Quote1 BG.png");
+}
+
+#quote2 {
+    background-image: url("../img/6.Quote 2/Quote2.png");
+}
+
 .section-quotes .row #quote_logo {
     margin: 0 48%;
     width: 5%;
@@ -350,6 +358,26 @@ nav {
     background-color: rgb(94,199,147);
     color: #fff
 }
+
+#load-more {
+    margin-top: 5%;
+
+    text-align: center;
+    text-decoration: none;
+
+    border: solid rgb(94,199,147);
+    border-radius: 12px;
+
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    font-size: 110%;
+    margin-left: 15%;
+}
+
+#load-more:hover {
+    background-color: RGB(94,199,147);
+    color: #fff;
+}
+
 
 /* ------------------------------------------------- */
 /* RESPONSIVE STYLES */
