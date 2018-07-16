@@ -248,8 +248,12 @@ nav {
 /* ------------------------------------------------- */
 /* Clients Section */
 /* ------------------------------------------------- */
+.section-clients {
+    padding-top: 0;
+}
+
 .section-clients .row h2 {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     font-size: 300%;
 }
 
@@ -272,6 +276,38 @@ nav {
     width: 40%;
     margin: 0 12.5%;
 }
+
+
+/* ------------------------------------------------- */
+/* QUOTES */
+/* ------------------------------------------------- */
+.section-quotes {
+    background-image: url("../img/4.Quote 1/Quote1 BG.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 3.75%;
+}
+
+.section-quotes .row #quote_logo {
+    margin: 0 48%;
+    width: 5%;
+}
+
+.section-quotes .row blockquote {
+    color: rgb(202,202,202);
+    text-align: center;
+    margin: 5% 5% 2%;
+}
+
+.section-quotes .row p {
+    color: rgb(94,199,147);
+    font-weight: 600;
+    text-align: center;
+}
+
+/* ------------------------------------------------- */
+/* PROJECTS */
+/* ------------------------------------------------- */
 
 
 
