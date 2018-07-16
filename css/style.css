@@ -211,6 +211,7 @@ nav {
     width: 60px;
     margin: 5% auto 0;
 }
+/* ### */
 
 .section-about .row #itServices {
     background-image: url("../img/2.Our Services/itServices BG.png");
@@ -243,6 +244,36 @@ nav {
     height: 58vh;
     margin: 0;
 }
+
+/* ------------------------------------------------- */
+/* Clients Section */
+/* ------------------------------------------------- */
+.section-clients .row h2 {
+    margin-bottom: 10%;
+    font-size: 300%;
+}
+
+.section-clients .row #BS {
+    width: 50%;
+    margin: 0 12.5%;
+}
+
+.section-clients .row #Unilever {
+    width: 43%;
+    margin: 0 12.5%;
+}
+
+.section-clients .row #Moment {
+    width: 75%;
+    margin: 0 12.5% 0 0;
+}
+
+.section-clients .row #Jardines {
+    width: 40%;
+    margin: 0 12.5%;
+}
+
+
 
 /* ------------------------------------------------- */
 /* RESPONSIVE STYLES */
