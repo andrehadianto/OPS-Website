@@ -169,6 +169,12 @@ nav {
     font-weight: 100;
 }
 
+/* icons */
+.section-about .row img {
+    width: 15%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
 /* Grid About */
 .section-about #grid {
     max-width: none;
