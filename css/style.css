@@ -95,19 +95,6 @@ header{
 
 }
 
-.home {
-    position: absolute;
-    width: 1140px;
-    top: 34%;
-    left: 50%;
-    transform: translate(-25%, -25%);
-}
-
-/* Setting the Logo's size */
-#OPSLogo {
-    width: 50%;
-}
-
 /* ------------------------------------------------- */
 /* NAVIGATION BAR */
 /* ------------------------------------------------- */
@@ -376,6 +363,26 @@ nav {
 #load-more:hover {
     background-color: RGB(94,199,147);
     color: #fff;
+}
+/* ------------------------------------------------- */
+/* TEAM */
+/* ------------------------------------------------- */
+.section-team {
+    padding-bottom: 0;
+}
+
+/* ------------------------------------------------- */
+/* FOOTER */
+/* ------------------------------------------------- */
+footer {
+    background-color: rgba(0,0,0,0.7);
+    height: 10vh;
+}
+
+footer p {
+    color: #fff;
+    font-size: 115%;
+    margin: 5% auto;
 }
 
 
