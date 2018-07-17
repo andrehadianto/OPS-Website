@@ -42,6 +42,7 @@ h3 {
     font-size: 150%;
     font-weight: 520;
     letter-spacing: 20%;
+    text-align: center;
 }
 
 /* BUTTONS */
@@ -181,6 +182,7 @@ nav {
 
 .section-about .row #OurServices {
     background-image: url("../img/2.Our Services/OurService BG.png");
+    background-size: 60vh;
     width: 33.26%;
     height: 58vh;
     margin: 0;
@@ -269,7 +271,6 @@ nav {
 /* QUOTES */
 /* ------------------------------------------------- */
 .section-quotes {
-    background-image: url("../img/4.Quote 1/Quote1 BG.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 3.75%;
@@ -332,11 +333,15 @@ nav {
     display: inline;
 }
 
+button {
+    font-size: 90%;
+}
+
 .row-longer .nav li button {
     display: inline-block;
     text-decoration: none;
     color: #555;
-    padding: 1% 1.6%;
+    padding: 0.8% 1.5%;
     background-color: rgb(222,222,222);
     border-radius: 4px;
     border: none;
@@ -361,7 +366,7 @@ nav {
 
     transition: background-color 0.2s, border 0.2s, color 0.2s;
     font-size: 110%;
-    margin-left: 15%;
+    margin-left: 42%;
 }
 
 #load-more:hover {
@@ -373,8 +378,43 @@ nav {
 /* ------------------------------------------------- */
 
 
+/* ------------------------------------------------- */
+/* CONTACT US */
+/* ------------------------------------------------- */
+.section-contact {
+    background-image: url("../img/8.Contact Us/Contact us BG.png");
+    background-size: cover;
+    background-position: center;
+}
 
+.section-contact h2 {
+    color: white;
+    font-weight: 300;
+    margin-bottom: 1%;
+}
 
+.section-contact p {
+    color: rgba(202,202,202,0.7)
+}
+
+#form {
+    margin-bottom: 10%;
+}
+
+.contact-form {
+    width: 90%;
+}
+
+.contact-form .row {
+    margin: 2% 0;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 1%;
+    border-radius: 4px;
+}
 /* ------------------------------------------------- */
 /* FOOTER */
 /* ------------------------------------------------- */
@@ -382,6 +422,9 @@ footer {
     background-color: rgba(0,0,0,0.7);
     height: 10vh;
     overflow: hidden;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
 }
 
 footer .row {
@@ -389,7 +432,7 @@ footer .row {
 }
 
 footer p {
-    color: rgba(255,255,255,0.7);
+    color: rgba(202,202,202,0.7);
     font-size: 90%;
     font-weight: 300;
     margin: 5% auto;
@@ -421,7 +464,7 @@ footer .social-links a {
 /* -------- ICONS --------*/
 .icons {
     font-size: 135%;
-    color: rgba(255,255,255,0.7);
+    color: rgba(202,202,202,0.7);
 }
 
 /* ------------------------------------------------- */
