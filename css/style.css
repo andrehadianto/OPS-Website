@@ -35,7 +35,7 @@ h2 {
     font-weight: 300;
     text-align: center;
     color: RGB(28,69,102);
-    margin-bottom: 40px;
+    margin-bottom: 2%;
 }
 
 h3 {
@@ -304,35 +304,35 @@ nav {
 /* ------------------------------------------------- */
 /* PROJECTS */
 /* ------------------------------------------------- */
-.row-projects {
+.row-longer {
     max-width: 1280px;
     margin: 0 auto;
 }
 
 /* Headings */
-.section-projects .row-projects h2 {
+.row-longer h2 {
     font-size: 300%;
     color: #555;
     text-align: center;
 }
 
-.section-projects .row-projects p {
+.row-longer p {
     font-size: 115%;
-    margin: 0 0 5%;
+    margin: 0 0 4%;
     line-height: 1.75rem;
     text-align: center;
 }
 
 /* -------- SELECTION -------- */
-.section-projects .row-projects .nav {
+.row-longer .nav {
     text-align: center;
 }
 
-.section-projects .row-projects .nav li {
+.row-longer .nav li {
     display: inline;
 }
 
-.section-projects .row-projects .nav li button {
+.row-longer .nav li button {
     display: inline-block;
     text-decoration: none;
     color: #555;
@@ -344,7 +344,7 @@ nav {
 
 }
 
-.section-projects .row-projects .nav li button:active {
+.row-longer .nav li button:active {
     background-color: rgb(94,199,147);
     border-radius: 4px;
     color: #fff;
@@ -371,9 +371,7 @@ nav {
 /* ------------------------------------------------- */
 /* TEAM */
 /* ------------------------------------------------- */
-.section-team {
-    padding-bottom: 0;
-}
+
 
 
 
