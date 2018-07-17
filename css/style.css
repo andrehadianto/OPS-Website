@@ -17,6 +17,22 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.mainLoginInput::-webkit-input-placeholder {
+  font-family: 'myFont', Arial, Helvetica, sans-serif;
+}
+
+.mainLoginInput:-ms-input-placeholder {
+  font-family: 'myFont', Arial, Helvetica, sans-serif;
+}
+
+.mainLoginInput:-moz-placeholder {
+  font-family: 'myFont', Arial, Helvetica, sans-serif;
+}
+
+.mainLoginInput::-moz-placeholder {
+  font-family: 'myFont', Arial, Helvetica, sans-serif;
+}
+
 /* ------------------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ------------------------------------------------- */
@@ -382,9 +398,10 @@ button {
 /* CONTACT US */
 /* ------------------------------------------------- */
 .section-contact {
-    background-image: url("../img/8.Contact Us/Contact us BG.png");
+    background: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("../img/8.Contact Us/Contact us BG.png");
     background-size: cover;
     background-position: center;
+    padding-bottom: 0;
 }
 
 .section-contact h2 {
@@ -406,15 +423,40 @@ button {
 }
 
 .contact-form .row {
-    margin: 2% 0;
+    margin: 2.5% 0;
 }
 
-input,
+input[type="text"],
+input[type="email"],
 textarea {
     width: 100%;
-    padding: 1%;
+    padding: 2% 4%;
+    background-color: rgba(222,222,222,0.1);
     border-radius: 4px;
+    border: none;
+    font-family: inherit;
+    font-size: 75%;
 }
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    font-size: 75%;
+    padding: 2% 8%;
+    border: 2px solid rgb(94,199,147);
+    border-radius: 6px;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: RGB(94,199,147);
+    color: #fff;
+}
+
 /* ------------------------------------------------- */
 /* FOOTER */
 /* ------------------------------------------------- */
@@ -423,8 +465,6 @@ footer {
     height: 10vh;
     overflow: hidden;
     width: 100%;
-    bottom: 0;
-    position: fixed;
 }
 
 footer .row {
