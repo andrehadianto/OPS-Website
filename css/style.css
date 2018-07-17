@@ -397,6 +397,7 @@ button {
 /* ------------------------------------------------- */
 /* CONTACT US */
 /* ------------------------------------------------- */
+/* FORM */
 .section-contact {
     background: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("../img/8.Contact Us/Contact us BG.png");
     background-size: cover;
@@ -414,8 +415,8 @@ button {
     color: rgba(202,202,202,0.7)
 }
 
-#form {
-    margin-bottom: 10%;
+#contacts-left {
+    margin-bottom: 5%;
 }
 
 .contact-form {
@@ -440,6 +441,9 @@ textarea {
 
 textarea {
     height: 100px;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 300px;
 }
 
 input[type="submit"] {
@@ -455,6 +459,28 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: RGB(94,199,147);
     color: #fff;
+}
+
+/* CONTACTS */
+#contacts-right {
+    width: 40%;
+    margin-left: 10%;
+}
+
+#icon-loc {
+    width: 15%;
+    margin-left: 0;
+}
+
+.icon-small {
+    width: 60%;
+    margin-top: 5%;
+}
+
+.section-contact #contacts-right p {
+    font-size: 75%;
+    text-align: left;
+    line-height: 165%;
 }
 
 /* ------------------------------------------------- */
