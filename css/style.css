@@ -323,7 +323,7 @@ nav {
     text-align: center;
 }
 
-/* nav */
+/* -------- SELECTION -------- */
 .section-projects .row-projects .nav {
     text-align: center;
 }
@@ -332,18 +332,22 @@ nav {
     display: inline;
 }
 
-.section-projects .row-projects .nav li a {
+.section-projects .row-projects .nav li button {
     display: inline-block;
     text-decoration: none;
     color: #555;
-    padding: 0.8% 1.5%;
+    padding: 1% 1.6%;
     background-color: rgb(222,222,222);
     border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
 }
 
-.section-projects .row-projects .nav li a:active {
+.section-projects .row-projects .nav li button:active {
     background-color: rgb(94,199,147);
-    color: #fff
+    border-radius: 4px;
+    color: #fff;
 }
 
 #load-more {
@@ -371,20 +375,56 @@ nav {
     padding-bottom: 0;
 }
 
+
+
 /* ------------------------------------------------- */
 /* FOOTER */
 /* ------------------------------------------------- */
 footer {
     background-color: rgba(0,0,0,0.7);
     height: 10vh;
+    overflow: hidden;
+}
+
+footer .row {
+    max-width: 1280px;
 }
 
 footer p {
-    color: #fff;
-    font-size: 115%;
+    color: rgba(255,255,255,0.7);
+    font-size: 90%;
+    font-weight: 300;
     margin: 5% auto;
 }
 
+footer ul {
+    overflow-y: hidden;
+}
+
+footer .social-links li {
+    width: 100%;
+    display: inline;
+}
+
+footer .social-links a {
+    padding: 2%;
+    overflow-y: hidden;
+}
+
+.span-footer-copyright {
+    width: 43.5%;
+}
+
+.span-footer-sociallinks {
+    width: 20%;
+    padding: 2% 0;
+}
+
+/* -------- ICONS --------*/
+.icons {
+    font-size: 135%;
+    color: rgba(255,255,255,0.7);
+}
 
 /* ------------------------------------------------- */
 /* RESPONSIVE STYLES */

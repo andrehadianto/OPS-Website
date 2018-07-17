@@ -6,7 +6,6 @@
         <title>Office Productivity Solutions</title>
         <link rel="stylesheet" href="css/Grid.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/ionicons.min.css">
     </head>
     <body>
         <header>
@@ -114,12 +113,13 @@
             </div>
             <div class="row-projects" id="links">
                 <ul class="nav">
-                    <li><a href="#">All</a></a></li>
-                    <li><a href="#">Website</a></a></li>
-                    <li><a href="#">Mobile App</a></a></li>
+                    <li><button onclick="snack()">All</button></li>
+                    <li><button>Website</button></li>
+                    <li><button>Mobile App</button></li>
                 </ul>
             </div>
             <div class="col span-1-of-3 box">
+
             </div>
             <div class="row-projects">
                 <a class="btn" id="load-more" href="#">Load More</a>
@@ -144,23 +144,23 @@
 
         <footer>
             <div class="row">
-                <div class="col" id="copyright">
+                <div class="col span-footer-copyright" id="copyright">
                     <p>
                         Opsolutions &copy 2018 All Rights Reserved by Opsolutions
                     </p>
                 </div>
-                <div class="col">
+                <div class="col span-footer-sociallinks">
                     <ul class="social-links">
-                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-                        <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                        <li><a href="#"><ion-icon name="logo-facebook" class=" icons"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-instagram" class=" icons"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-googleplus" class=" icons"></ion-icon></a></li>
                     </ul>
                 </div>
 
             </div>
 
         </footer>
-
+        <script src="https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"></script>
     </body>
 </html>
 
