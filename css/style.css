@@ -544,27 +544,3 @@ footer .social-links a {
     font-size: 135%;
     color: rgba(202,202,202,0.7);
 }
-
-/* ------------------------------------------------- */
-/* RESPONSIVE STYLES */
-/* ------------------------------------------------- */
-/* https://medialoot.com/blog/how-to-create-a-responsive-navigation-menu-using-only-css/ */
-@media screen and (max-width : 760px) {
-    /*Make dropdown links appear inline*/
-    ul {
-        position: static;
-        display: show;
-    }
-    /*Create vertical spacing*/
-    li {
-        margin-bottom: 1px;
-    }
-    /*Make all menu links full width*/
-    ul li, li a {
-        width: 100%;
-    }
-
-    .main-nav {
-        margin: auto;
-    }
-}

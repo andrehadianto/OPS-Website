@@ -1,0 +1,35 @@
+/* ------------------------------------------------- */
+/* RESPONSIVE STYLES */
+/* ------------------------------------------------- */
+/* https://medialoot.com/blog/how-to-create-a-responsive-navigation-menu-using-only-css/ */
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+}
+
+@media screen and (max-width : 767px) {
+    /*Make dropdown links appear inline*/
+    ul {
+        position: static;
+        display: show;
+    }
+    /*Create vertical spacing*/
+    li {
+        margin-bottom: 1px;
+    }
+    /*Make all menu links full width*/
+    ul li, li a {
+        width: 100%;
+    }
+
+    .main-nav {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+}
