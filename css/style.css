@@ -13,7 +13,7 @@ html {
     color: #555;
     font-family: 'HelveticaNeue', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 120%;
     text-rendering: optimizeLegibility;
 }
 
@@ -187,22 +187,26 @@ nav {
     color: #f6f6f6;
 }
 
-.section-about .row #Branding {
-    background-image: url("../img/2.Our Services/Branding BG.png");
-    background-size: 60vh;
+.section-about .row #Branding,
+.section-about .row #OurServices,
+.section-about .row #itServices,
+.section-about .row #ProjectMngmnt,
+.section-about .row #infrastructure,
+.section-about .row #appDev {
+    background-size: 33.3vw;
     background-repeat: no-repeat;
     width: 33.26%;
-    height: 58vh;
+    height: 55vh;
     margin: 0;
+}
+.section-about .row #Branding {
+    background-image: url("../img/2.Our Services/Branding BG.png");
 }
 
 .section-about .row #OurServices {
     background-image: url("../img/2.Our Services/OurService BG.png");
-    background-size: 60vh;
-    width: 33.26%;
-    height: 58vh;
-    margin: 0;
 }
+
 /* Our Services SPECIAL TEXT */
 .section-about .row #OurServices h3 {
     margin-top: 20%;
@@ -220,34 +224,18 @@ nav {
 
 .section-about .row #itServices {
     background-image: url("../img/2.Our Services/itServices BG.png");
-    background-size: 60vh;
-    width: 33.26%;
-    height: 58vh;
-    margin: 0;
 }
 
 .section-about .row #ProjectMngmnt {
     background-image: url("../img/2.Our Services/projMgmnt BG.png");
-    background-size: 60vh;
-    width: 33.26%;
-    height: 58vh;
-    margin: 0;
 }
 
 .section-about .row #infrastructure {
     background-image: url("../img/2.Our Services/infrastructure BG.png");
-    background-size: 60vh;
-    width: 33.26%;
-    height: 58vh;
-    margin: 0;
 }
 
 .section-about .row #appDev {
     background-image: url("../img/2.Our Services/appdevt BG.png");
-    background-size: 60vh;
-    width: 33.26%;
-    height: 58vh;
-    margin: 0;
 }
 
 /* ------------------------------------------------- */
