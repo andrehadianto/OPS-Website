@@ -80,6 +80,7 @@ h3 {
     transition: background-color 0.2s, border 0.2s, color 0.2s;
     font-size: 110%;
     margin-left: 15%;
+    margin: 0 40%;
 }
 
 #getInTouch:hover {
@@ -99,16 +100,15 @@ header{
 }
 
 .home {
-    position: absolute;
-    width: 1140px;
+    max-width: 1140px;
     top: 34%;
-    left: 50%;
-    transform: translate(-25%, -25%);
+    margin: 10% auto;
 }
 
 /* Setting the Logo's size */
 #OPSLogo {
     width: 50%;
+    margin: 0 25% 3%;
 
 }
 
