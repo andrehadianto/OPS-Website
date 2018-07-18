@@ -97,6 +97,7 @@ header{
     background-size: cover;
     background-position: center;
     height: 100vh;
+    overflow: hidden;
 }
 
 .home {
@@ -107,8 +108,8 @@ header{
 
 /* Setting the Logo's size */
 #OPSLogo {
-    width: 50%;
-    margin: 0 25% 3%;
+    width: 65%;
+    margin: 0 17.5% 4%;
 
 }
 
@@ -193,11 +194,12 @@ nav {
 .section-about .row #ProjectMngmnt,
 .section-about .row #infrastructure,
 .section-about .row #appDev {
-    background-size: 33.3vw;
+    background-size: 66.2vh;
     background-repeat: no-repeat;
     width: 33.26%;
     height: 55vh;
     margin: 0;
+    overflow: hidden;
 }
 .section-about .row #Branding {
     background-image: url("../img/2.Our Services/Branding BG.png");
@@ -312,6 +314,7 @@ nav {
 .row-longer {
     max-width: 1280px;
     margin: 0 auto;
+    text-align: center;
 }
 
 /* Headings */
@@ -370,7 +373,6 @@ button {
 
     transition: background-color 0.2s, border 0.2s, color 0.2s;
     font-size: 110%;
-    margin-left: 42%;
 }
 
 #load-more:hover {
@@ -442,6 +444,10 @@ input[type="submit"] {
     background-color: rgba(0,0,0,0);
     cursor: pointer;
     transition: 0.2s;
+}
+
+.row-submit {
+    text-align: left;
 }
 
 input[type="submit"]:hover {

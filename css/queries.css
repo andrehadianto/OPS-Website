@@ -2,15 +2,55 @@
 /* RESPONSIVE STYLES */
 /* ------------------------------------------------- */
 /* https://medialoot.com/blog/how-to-create-a-responsive-navigation-menu-using-only-css/ */
+@media only screen and (max-width: 1330px) {
+    #OPSLogo {
+        width: 50%;
+        margin: 0 25% 3%;
+    }
+
+    .row-longer,
+    footer .row {
+        max-width: 1140px;
+    }
+
+}
+
 @media only screen and (max-width: 1200px) {
+    html {
+        font-size: 100%;
+    }
+
+    .row,
+    .row-longer,
+    footer .row {
+        max-width: 1024px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        font-size: 80%;
+    }
+
+    .section-contact #contacts-right p {
+        font-size: 80%;
+    }
 
 }
 
 @media only screen and (max-width: 1023px) {
-
+    header nav .row {
+        max-width: 1000px;
+    }
+    
+    .row,
+    .row-longer,
+    footer .row {
+        max-width: 800px;
+    }
 }
 
-@media screen and (max-width : 767px) {
+@media only screen and (max-width : 767px) {
     /*Make dropdown links appear inline*/
     ul {
         position: static;
