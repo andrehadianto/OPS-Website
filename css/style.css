@@ -521,19 +521,22 @@ footer .social-links a {
 }
 
 .span-back-to-top button {
-    width: 68%;
+    padding: 30%;
+    background-image: url("../img/8.Contact Us/icon_go-up-normal.png");
+    background-size: cover;
     background-color: rgba(0,0,0,0);
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.span-back-to-top button:hover {
+    background-image: url("../img/8.Contact Us/icon_go-up-hover.png");
 }
 
 .span-back-to-top img {
     width: 100%;
-}
-
-.span-back-to-top img:hover {
-    i
 }
 
 /* -------- ICONS --------*/
