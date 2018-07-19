@@ -96,7 +96,7 @@ h3 {
 /* ------------------------------------------------- */
 
 header{
-    background-image: url("../resources/img/1.Home/hOME_bg.png");
+    background-image: url("../img/1.Home/hOME_bg.png");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -210,11 +210,11 @@ nav {
     overflow: hidden;
 }
 .section-about .row #Branding {
-    background-image: url("../resources/img/2.Our Services/Branding BG.png");
+    background-image: url("../img/2.Our Services/Branding BG.png");
 }
 
 .section-about .row #OurServices {
-    background-image: url("../resources/img/2.Our Services/OurService BG.png");
+    background-image: url("../img/2.Our Services/OurService BG.png");
 }
 
 /* Our Services SPECIAL TEXT */
@@ -233,19 +233,19 @@ nav {
 /* ### */
 
 .section-about .row #itServices {
-    background-image: url("../resources/img/2.Our Services/itServices BG.png");
+    background-image: url("../img/2.Our Services/itServices BG.png");
 }
 
 .section-about .row #ProjectMngmnt {
-    background-image: url("../resources/img/2.Our Services/projMgmnt BG.png");
+    background-image: url("../img/2.Our Services/projMgmnt BG.png");
 }
 
 .section-about .row #infrastructure {
-    background-image: url("../resources/img/2.Our Services/infrastructure BG.png");
+    background-image: url("../img/2.Our Services/infrastructure BG.png");
 }
 
 .section-about .row #appDev {
-    background-image: url("../resources/img/2.Our Services/appdevt BG.png");
+    background-image: url("../img/2.Our Services/appdevt BG.png");
 }
 
 /* ------------------------------------------------- */
@@ -287,11 +287,11 @@ nav {
 }
 
 #quote1 {
-    background-image: url("../resources/img/4.Quote 1/Quote1 BG.png");
+    background-image: url("../img/4.Quote 1/Quote1 BG.png");
 }
 
 #quote2 {
-    background-image: url("../resources/img/6.Quote 2/Quote2.png");
+    background-image: url("../img/6.Quote 2/Quote2.png");
 }
 
 .section-quotes .row #quote_logo {
@@ -395,8 +395,8 @@ button {
 /* ------------------------------------------------- */
 /* FORM */
 .section-contact {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,0.45)), to(rgba(0,0,0,0.45))), url("../resources/img/8.Contact Us/Contact us BG.png");
-    background: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("../resources/img/8.Contact Us/Contact us BG.png");
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,0.45)), to(rgba(0,0,0,0.45))), url("../img/8.Contact Us/Contact us BG.png");
+    background: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("../img/8.Contact Us/Contact us BG.png");
     background-size: cover;
     background-position: center;
     padding-bottom: 0;
@@ -536,7 +536,7 @@ footer .social-links a {
 
 .span-back-to-top button {
     padding: 30%;
-    background-image: url("../resources/img/8.Contact Us/icon_go-up-normal.png");
+    background-image: url("../img/8.Contact Us/icon_go-up-normal.png");
     background-size: cover;
     background-color: rgba(0,0,0,0);
     border: none;
@@ -547,7 +547,7 @@ footer .social-links a {
 }
 
 .span-back-to-top button:hover {
-    background-image: url("../resources/img/8.Contact Us/icon_go-up-hover.png");
+    background-image: url("../img/8.Contact Us/icon_go-up-hover.png");
 }
 
 .span-back-to-top img {
