@@ -3,11 +3,6 @@
 /* ------------------------------------------------- */
 /* https://medialoot.com/blog/how-to-create-a-responsive-navigation-menu-using-only-css/ */
 @media only screen and (max-width: 1330px) {
-    #OPSLogo {
-        width: 50%;
-        margin: 0 25% 3%;
-    }
-
     .row-longer,
     footer .row {
         max-width: 1140px;
@@ -36,18 +31,32 @@
         font-size: 80%;
     }
 
+    #OPSLogo {
+        width: 50%;
+        margin: 0 25% 3%;
+    }
+
+    .home {
+        margin: 20% auto;
+    }
 }
 
 @media only screen and (max-width: 1023px) {
     header nav .row {
         max-width: 1000px;
     }
-    
+
+    section {
+        padding: 60px 0;
+    }
+
     .row,
     .row-longer,
     footer .row {
         max-width: 800px;
     }
+
+
 }
 
 @media only screen and (max-width : 767px) {
