@@ -155,6 +155,10 @@ nav {
 /* ------------------------------------------------- */
 /* About Section */
 /* ------------------------------------------------- */
+.section-about {
+    padding-bottom: 0;
+}
+
 .section-about .row {
     text-align: center;
 }
@@ -247,10 +251,6 @@ nav {
 /* ------------------------------------------------- */
 /* Clients Section */
 /* ------------------------------------------------- */
-.section-clients {
-    padding-top: 0;
-}
-
 .section-clients .row h2 {
     margin-bottom: 5%;
     font-size: 300%;
