@@ -4,7 +4,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     overflow-x: hidden;
 }
 
@@ -77,6 +78,8 @@ h3 {
     border: solid rgb(94,199,147);
     border-radius: 6px;
 
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+
     transition: background-color 0.2s, border 0.2s, color 0.2s;
     font-size: 110%;
     margin-left: 15%;
@@ -118,7 +121,8 @@ header{
 /* ------------------------------------------------- */
 nav {
     background-color: rgba(0,0,0,0.4);
-    box-shadow: 0px 10px 20px RGBa(0,0,0,0.5);
+    -webkit-box-shadow: 0px 10px 20px RGBa(0,0,0,0.5);
+            box-shadow: 0px 10px 20px RGBa(0,0,0,0.5);
 }
 
 .main-nav {
@@ -371,6 +375,8 @@ button {
     border: solid rgb(94,199,147);
     border-radius: 12px;
 
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+
     transition: background-color 0.2s, border 0.2s, color 0.2s;
     font-size: 110%;
 }
@@ -389,6 +395,7 @@ button {
 /* ------------------------------------------------- */
 /* FORM */
 .section-contact {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,0.45)), to(rgba(0,0,0,0.45))), url("../img/8.Contact Us/Contact us BG.png");
     background: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("../img/8.Contact Us/Contact us BG.png");
     background-size: cover;
     background-position: center;
@@ -443,6 +450,7 @@ input[type="submit"] {
     border-radius: 6px;
     background-color: rgba(0,0,0,0);
     cursor: pointer;
+    -webkit-transition: 0.2s;
     transition: 0.2s;
 }
 
@@ -534,6 +542,7 @@ footer .social-links a {
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    -webkit-transition: 0.2s;
     transition: 0.2s;
 }
 
