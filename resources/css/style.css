@@ -152,6 +152,20 @@ nav {
     border-bottom: 3px solid rgb(94,199,147);
 }
 
+/* MOBILE - NAVIGATION */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
+
 /* ------------------------------------------------- */
 /* About Section */
 /* ------------------------------------------------- */
