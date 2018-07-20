@@ -42,6 +42,10 @@
 }
 
 @media only screen and (max-width: 1023px) {
+    .main-nav {
+        margin-left: 5%;
+    }
+
     header nav .row {
         max-width: 1000px;
     }
@@ -59,23 +63,51 @@
 
 }
 
-@media only screen and (max-width : 767px) {
-    /*Make dropdown links appear inline*/
-    ul {
-        position: static;
-        display: show;
-    }
-    /*Create vertical spacing*/
-    li {
-        margin-bottom: 1px;
-    }
-    /*Make all menu links full width*/
-    ul li, li a {
-        width: 100%;
+@media only screen and (max-width : 949px) {
+    .main-nav {
+        margin-left: 0;
     }
 
+    #getInTouch {
+        margin: 0px 39%;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    html {
+        font-size: 90%;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+    #OPSLogo {
+        width: 80%;
+        margin: 0 10% 10%;
+    }
+
+    #getInTouch {
+        margin: 0px 37%;
+    }
     .main-nav {
+        display: none;
         margin: auto;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a {
+        display: block;
+        padding: 30px 37vw;
+    }
+
+    .row,
+    .row-longer,
+    footer .row {
+        max-width: 700px;
     }
 }
 
