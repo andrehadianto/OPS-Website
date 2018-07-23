@@ -91,10 +91,29 @@ $(document).ready(function() {
     // Mobile Navigation Bar
     $(".js--mobile-nav-icon").click(function() {
         var nav = $(".js--main-nav");
-        var icon = $(".js--mobile-nav-icon ion-icon");
+        var menu_close = $(".js--mobile-nav-icon");
+        var menu_open = $(".js--mobile-nav-icon-bar");
 
         nav.slideToggle(200);
-        
 
+        if (menu_close.css("display","inline-block")) {
+            menu_close.css("display","none");
+            menu_open.css("display","inline-block");
+        };
     });
+
+    $(".js--mobile-nav-icon-bar").click(function() {
+        var nav = $(".js--main-nav");
+        var menu_close = $(".js--mobile-nav-icon");
+        var menu_open = $(".js--mobile-nav-icon-bar");
+
+        nav.slideToggle(200);
+
+        if (menu_close.css("display","none")) {
+            menu_close.css("display","inline-block");
+            menu_open.css("display","none");
+        };
+    });
+
+
 })
