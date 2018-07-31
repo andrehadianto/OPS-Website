@@ -94,12 +94,19 @@ h3 {
 /* HEADER */
 /* ------------------------------------------------- */
 
-header{
+header {
     background-image: url("../img/1.Home/hOME_bg.png");
-    background-size: cover;
-    background-position: center;
     height: 100vh;
     overflow: hidden;
+}
+
+.parallax {
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 .home {
@@ -122,6 +129,8 @@ nav {
     background-color: rgba(0,0,0,0.4);
     -webkit-box-shadow: 0px 10px 20px RGBa(0,0,0,0.5);
             box-shadow: 0px 10px 20px RGBa(0,0,0,0.5);
+    height: 9%;
+    overflow-y: hidden;
 }
 
 .main-nav {
@@ -138,6 +147,7 @@ nav {
 .main-nav li a {
     display: inline-block;
     padding: 30px 60px;
+    margin-bottom: 3px;
 
     color: rgb(210,211,212);
     text-decoration: none;
@@ -145,10 +155,11 @@ nav {
 
 .main-nav li a:hover{
     color: rgb(94,199,147);
-    font-weight: 600;
+    font-weight: 400;
 
     background-color: rgba(0,0,0,0.5);
     border-bottom: 3px solid rgb(94,199,147);
+    margin-bottom: 0;
 }
 
 /* MOBILE - NAVIGATION */
@@ -436,7 +447,7 @@ button {
 }
 
 .contact-form {
-    width: 90%;
+    width: 80%;
 }
 
 .contact-form .row {
