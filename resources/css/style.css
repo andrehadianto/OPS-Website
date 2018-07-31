@@ -166,7 +166,7 @@ nav {
 .mobile-nav-icon-bar,
 .mobile-nav-icon {
     float: right;
-    margin: 2% 4%;
+    margin: 4% 4%;
     cursor: pointer;
     display: none;
 }
@@ -175,10 +175,6 @@ nav {
 .mobile-nav-icon ion-icon {
     font-size: 200%;
     color: #fff;
-}
-
-.mobile-nav-icon-bar {
-    display: none;
 }
 
 
