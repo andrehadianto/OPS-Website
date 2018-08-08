@@ -228,10 +228,10 @@ nav {
 .section-about .row #ProjectMngmnt,
 .section-about .row #infrastructure,
 .section-about .row #appDev {
-    background-size: 66.5vh;
+    background-size: 70.1vh;
     background-repeat: no-repeat;
     width: 33.26%;
-    height: 55vh;
+    height: 60vh;
     margin: 0;
     overflow: hidden;
 }
