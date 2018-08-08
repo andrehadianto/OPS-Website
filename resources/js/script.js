@@ -15,6 +15,23 @@ function topFunction() {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 */
+// Javascript
+slidr.create('slidr-img', {
+    after: function(e) { console.log('in: ' + e.in.slidr); },
+    before: function(e) { console.log('out: ' + e.out.slidr); },
+    breadcrumbs: true,
+    controls: 'none',
+    direction: 'horizontal',
+    fade: true,
+    keyboard: true,
+    overflow: true,
+    pause: false,
+    theme: '#e2e2e2',
+    timing: { 'fade': '0.5s ease-in' },
+    touch: true,
+    transition: 'fade'
+}).start();
+
 
 // jQuery v3.3.1
 $(document).ready(function() {

@@ -282,6 +282,33 @@ nav {
     font-size: 300%;
 }
 
+.section-clients .row div {
+    overflow-y: hidden;
+}
+
+.section-clients .row div img {
+    width: 100%;
+}
+
+/* Customize the position, size, border color and background color. */
+aside[id="slidr-img-breadcrumbs"] {
+  right: 50% !important;
+  margin-right: -41px !important;
+}
+
+aside[id="slidr-img-breadcrumbs"] .slidr-breadcrumbs li {
+  width: 10px;
+  height: 10px;
+  margin: 3px;
+}
+
+aside[id="slidr-img}-breadcrumbs"] .slidr-breadcrumbs li.active {
+  width: 12px !important;
+  height: 12px !important;
+  margin: 2px !important;
+}
+
+/*
 .section-clients .row #BS {
     width: 50%;
     margin: 0 12.5%;
@@ -301,7 +328,7 @@ nav {
     width: 40%;
     margin: 0 12.5%;
 }
-
+*/
 
 /* ------------------------------------------------- */
 /* QUOTES */
